@@ -1,0 +1,59 @@
+<div class="text-center">
+    <div class="row">
+        <div class="col">
+          <div class="mno"><br><br>
+            <div class="kl">
+          <h2 class="fs-2" style="color: antiquewhite; ">Sign Up</h2><br>
+          
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput1" placeholder="name@example.com" name="fname" [(ngModel)]="fname">
+            <label for="floatingInput">Enter Your First Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput2" placeholder="name@example.com" name="lname" [(ngModel)]="lname">
+            <label for="floatingInput">Enter Your Last Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" name="address"  [(ngModel)]="address"></textarea>
+            <label for="floatingTextarea2">Address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput3" placeholder="name@example.com" name="city" [(ngModel)]="city">
+            <label for="floatingInput">City</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingPassword4" placeholder="email" name="email" [(ngModel)]="email">
+            <label for="floatingPassword">Email</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword5" placeholder="Password" name="password" [(ngModel)]="password">
+            <label for="floatingPassword">Password</label>
+          </div>
+         
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input " type="checkbox" value="" id="invalidCheck2" required>
+              <label class="form-check-label" style="color: white;" for="invalidCheck2">
+                Agree to terms and conditions
+              </label>
+            </div>
+          </div>
+          </div><br>
+          
+    
+          <button type="submit" class="btn btn-primary" (click)="register()">Submit</button>
+          <br><label style="color: white;">Already have account?</label> <a routerLink="/login">Login</a>
+          <div style="height: 100px;"></div>
+          
+    
+    
+    
+          
+    
+    
+         
+          
+        </div>
+       
+      </div>
+      </div>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pcbuilder-f617f": {
+      "hosting": {
+        "pcbuilder": [
+          "pcbuilder-f617f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pcbuilder-f617f"
+  }
+}

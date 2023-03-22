@@ -1,0 +1,13 @@
+.mno{
+    background-image: url('../../../assets/images/4.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+.kl{
+    display: inline-block;
+    opacity: 50%;
+   
+}

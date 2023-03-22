@@ -1,0 +1,22 @@
+.l{
+    background-image: url("../../../assets/images/9.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.py-5{
+    color:rgb(166,248,141);
+}
+
+.g-5{
+    color:rgb(166,248,141) ;
+}
+
+.g-5 h3{
+    position: relative;
+    right: 75px;
+    color: whitesmoke;
+}
+

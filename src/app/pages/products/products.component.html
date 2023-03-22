@@ -1,0 +1,28 @@
+<div class="h"><br><br><br><h1 class="text-center" style="color: antiquewhite;">Explore the Products</h1><br><br>
+<div class="container text-center">
+    <div class="row">
+      <div class="col col-lg-3" *ngFor="let data of database" >
+        <article class="card">
+          <img
+            class="card__background"
+            src="{{data.img}}"
+            alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+            width="1920"
+            height="2193"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">{{data.MotherBoard}}</h2>
+              <p class="card__description">
+                Rs{{data.Price}}
+              </p>
+            </div>
+            <button (click)="gotopage(data.id)"  class="card__button">Full details</button>
+          </div>
+        </article>
+
+      </div>
+    
+    </div>
+  </div>
+</div>
